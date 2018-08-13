@@ -85,8 +85,6 @@ D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\bin\Microsoft.Owin.Security.Google.xm
 D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\bin\Microsoft.Owin.Security.Twitter.xml
 D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\bin\System.Web.Http.Owin.xml
-D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\obj\Debug\WebApiCRUD.csprojAssemblyReference.cache
-D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\obj\Debug\WebApiCRUD.csproj.CoreCompileInputs.cache
-D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\obj\Debug\WebApiCRUD.csproj.CopyComplete
 D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\obj\Debug\WebApiCRUD.dll
 D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\obj\Debug\WebApiCRUD.pdb
+D:\GitHub\WebApiCrud\WebApiCRUD\WebApiCRUD\obj\Debug\WebApiCRUD.csprojResolveAssemblyReference.cache
