@@ -49,5 +49,12 @@ namespace CRUDMVC.Controllers
             return RedirectToAction("Index");
         }
 
+
+        public ActionResult DeleteCustomer(int id)
+        {
+            HttpResponseMessage response = CustomerClient.ApiCLient.DeleteAsync("Customers/" + id.ToString()).Result;
+            return RedirectToAction("Index");
+        }
+
     }
 }

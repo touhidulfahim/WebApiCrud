@@ -55,7 +55,7 @@
                 <td>                                                                              
                     
                     <a href="@Url.Action("AddEditCustomer", "Customer", new { id = item.CustomerId})" class="btn btn-warning"><i class="fa fa-pencil"></i>  Edit</a>
-                    <a href="@Url.Action("DeleteCustomer", "Customer"), new { id=item.CustomerId}" class="btn btn-danger"><i class="fa fa-pencil"></i> Delete</a>
+                    <a href="@Url.Action("DeleteCustomer", "Customer", new { id=item.CustomerId})" class="btn btn-danger"><i class="fa fa-pencil"></i> Delete</a>
                 </td>
             </tr>
         }
