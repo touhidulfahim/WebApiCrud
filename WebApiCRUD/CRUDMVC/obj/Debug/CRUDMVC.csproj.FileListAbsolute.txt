@@ -81,4 +81,3 @@ D:\GitHub\WebApiCrud\WebApiCRUD\CRUDMVC\obj\Debug\CRUDMVC.dll
 D:\GitHub\WebApiCrud\WebApiCRUD\CRUDMVC\obj\Debug\CRUDMVC.pdb
 D:\GitHub\WebApiCrud\WebApiCRUD\CRUDMVC\bin\System.Net.Http.Formatting.dll
 D:\GitHub\WebApiCrud\WebApiCRUD\CRUDMVC\bin\System.Net.Http.Formatting.xml
-D:\GitHub\WebApiCrud\WebApiCRUD\CRUDMVC\obj\Debug\CRUDMVC.csprojResolveAssemblyReference.cache

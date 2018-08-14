@@ -23,13 +23,29 @@ namespace CRUDMVC.Controllers
 
         public ActionResult AddEditCustomer(int id=0)
         {
-            return View(new CustomerViewModel());
+            if (id==0)
+            {
+                return View(new CustomerViewModel());
+            }
+            else
+            {
+                HttpResponseMessage response = CustomerClient.ApiCLient.GetAsync("Customers/" + id.ToString()).Result;
+                return View(response.Content.ReadAsAsync<CustomerViewModel>().Result);
+            }
         }
 
         [HttpPost]
         public ActionResult AddEditCustomer(CustomerViewModel customer)
         {
-            HttpResponseMessage response = CustomerClient.ApiCLient.PostAsJsonAsync("Customers", customer).Result;
+            if (customer.CustomerId==0)
+            {
+                HttpResponseMessage response = CustomerClient.ApiCLient.PostAsJsonAsync("Customers", customer).Result;
+            }
+            else
+            {
+                HttpResponseMessage response = CustomerClient.ApiCLient.PutAsJsonAsync("Customers/" + customer.CustomerId, customer).Result;
+            }
+            
             return RedirectToAction("Index");
         }
 
